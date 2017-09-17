@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0439CFE41F6E9EA500BF84B8 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439CFE31F6E9EA500BF84B8 /* Geometry.swift */; };
+		0439CFE61F6E9EF000BF84B8 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439CFE51F6E9EF000BF84B8 /* Graph.swift */; };
 		04B4BF021F6E9DF100D4B060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4BF011F6E9DF100D4B060 /* AppDelegate.swift */; };
 		04B4BF041F6E9DF100D4B060 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4BF031F6E9DF100D4B060 /* ViewController.swift */; };
 		04B4BF071F6E9DF100D4B060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B4BF051F6E9DF100D4B060 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0439CFE31F6E9EA500BF84B8 /* Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		0439CFE51F6E9EF000BF84B8 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		04B4BEFE1F6E9DF100D4B060 /* SAGeometry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAGeometry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B4BF011F6E9DF100D4B060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B4BF031F6E9DF100D4B060 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 			children = (
 				04B4BF011F6E9DF100D4B060 /* AppDelegate.swift */,
 				04B4BF031F6E9DF100D4B060 /* ViewController.swift */,
+				0439CFE51F6E9EF000BF84B8 /* Graph.swift */,
+				0439CFE31F6E9EA500BF84B8 /* Geometry.swift */,
 				04B4BF051F6E9DF100D4B060 /* Main.storyboard */,
 				04B4BF081F6E9DF100D4B060 /* Assets.xcassets */,
 				04B4BF0A1F6E9DF100D4B060 /* LaunchScreen.storyboard */,
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0439CFE61F6E9EF000BF84B8 /* Graph.swift in Sources */,
 				04B4BF041F6E9DF100D4B060 /* ViewController.swift in Sources */,
 				04B4BF021F6E9DF100D4B060 /* AppDelegate.swift in Sources */,
+				0439CFE41F6E9EA500BF84B8 /* Geometry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +524,7 @@
 				04B4BF281F6E9DF200D4B060 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B4BF291F6E9DF200D4B060 /* Build configuration list for PBXNativeTarget "SAGeometryTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +533,7 @@
 				04B4BF2B1F6E9DF200D4B060 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B4BF2C1F6E9DF200D4B060 /* Build configuration list for PBXNativeTarget "SAGeometryUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +542,7 @@
 				04B4BF2E1F6E9DF200D4B060 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

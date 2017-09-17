@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "04B4BEFD1F6E9DF100D4B060"
+               BuildableName = "SAGeometry.app"
+               BlueprintName = "SAGeometry"
+               ReferencedContainer = "container:SAGeometry.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "04B4BF111F6E9DF100D4B060"
+               BuildableName = "SAGeometryTests.xctest"
+               BlueprintName = "SAGeometryTests"
+               ReferencedContainer = "container:SAGeometry.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "04B4BF1C1F6E9DF200D4B060"
+               BuildableName = "SAGeometryUITests.xctest"
+               BlueprintName = "SAGeometryUITests"
+               ReferencedContainer = "container:SAGeometry.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "04B4BEFD1F6E9DF100D4B060"
+            BuildableName = "SAGeometry.app"
+            BlueprintName = "SAGeometry"
+            ReferencedContainer = "container:SAGeometry.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "04B4BEFD1F6E9DF100D4B060"
+            BuildableName = "SAGeometry.app"
+            BlueprintName = "SAGeometry"
+            ReferencedContainer = "container:SAGeometry.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "04B4BEFD1F6E9DF100D4B060"
+            BuildableName = "SAGeometry.app"
+            BlueprintName = "SAGeometry"
+            ReferencedContainer = "container:SAGeometry.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
